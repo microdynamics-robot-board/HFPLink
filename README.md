@@ -16,7 +16,7 @@
       <img src="https://img.shields.io/badge/total%20lines-0k-red?style=flat-square">
     </a>
     <a href="https://github.com/YosysHQ">
-      <img src="https://img.shields.io/badge/toolchain-yosys%20nextpnr%20iceprog-red?style=flat-square">
+      <img src="https://img.shields.io/badge/toolchain-c%20kicad-red?style=flat-square">
   </a>
     <a href="./CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/contribution-welcome-brightgreen?style=flat-square">
