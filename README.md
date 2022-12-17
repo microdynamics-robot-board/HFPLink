@@ -1,6 +1,6 @@
 <p align="center">
     <!-- <img width="200px" src="./.images/tree_core_logo.svg" align="center" alt="Tree Core CPU" /> -->
-    <h2 align="center">HFPLink: A High-speed QSPI-Flash Programmer</h2>
+    <h2 align="center">HFPLink: A High-speed SPI Flash Programmer</h2>
 </p>
 <p align="center">
     <a href="https://github.com/microdynamics-robot-development-board/HFPLink/actions">
