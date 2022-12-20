@@ -1,0 +1,95 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : hfplink_v1.brd                                )
+(    Software Version : 16.6-2015S066                                 )
+(    Date/Time        : Tue Dec 20 21:03:46 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'G:/project_development/GitHub/HFPLink/SCH/NETLIST'
+Design Directory:            '.'
+Old design name:             'G:/project_development/GitHub/HFPLink/PCB/hfplink_v1.brd'
+New design name:             'G:/project_development/GitHub/HFPLink/PCB/hfplink_v1.brd'
+
+CmdLine: netrev -$ -i G:/project_development/GitHub/HFPLink/SCH/NETLIST -y 1 -z -q netrev_constraint_report.xml G:/project_development/GitHub/HFPLink/PCB/#Taaaaal12604.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstchip.dat 
+   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstchip.dat (00:00:00.09)
+Starting to read G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxprt.dat 
+   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxprt.dat (00:00:00.00)
+Starting to read G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxnet.dat 
+   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           G:/project_development/GitHub/cadence_pcb_lib/PACKAGE/ 
+           G:/project_development/GitHub/cadence_pcb_lib/FLASH/ 
+           G:/project_development/GitHub/cadence_pcb_lib/SHAPE/ 
+           G:/project_development/GitHub/cadence_pcb_lib/OTHER/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/local/pcb/padstacks 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/pcb_lib/symbols 
+           E:/Cadence/Cadence_SPB_16.6-2015/share/pcb/allegrolib/symbols 
+           G:/project_development/GitHub/cadence_pcb_lib/PAD/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 20 21:03:46 2022
+   DESIGN NAME : 'HFPLINK'
+   PACKAGING ON Feb 15 2016 19:53:59
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:11
+elapsed time  0:00:00
+
