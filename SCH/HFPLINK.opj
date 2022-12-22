@@ -142,12 +142,9 @@
          "G:\project_development\GitHub\HFPLink\SCH\hfplink.dsn")
       (Path "Design Resources"
          "G:\project_development\GitHub\HFPLink\SCH\hfplink.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "G:\project_development\GitHub\HFPLink\SCH\hfplink.dsn" "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
-         "G:\project_development\GitHub\HFPLink\SCH\hfplink.dsn" "SCHEMATIC1"
-         "PAGE1"))
+         "G:\project_development\GitHub\HFPLink\SCH\hfplink.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -158,8 +155,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1172 0 371")
-        (Scroll "0 334")
-        (Zoom "138")
+        (Scroll "0 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\HFPLINK.DSN")
       (Schematic "SCHEMATIC1")
