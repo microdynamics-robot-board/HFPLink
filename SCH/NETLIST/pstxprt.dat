@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Dec-20-2022 at 21:02:19 }
+{ Using PSTWRITER 16.6.0 d001Dec-23-2022 at 17:46:56 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='HFPLINK';
@@ -54,6 +54,16 @@ SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS999@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
  C_PATH='@hfplink.schematic1(sch_1):ins999@\all\.\capacitor-non-pol.normal\(chips)',
  P_PATH='@hfplink.schematic1(sch_1):page1_ins999@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAPACITOR-NON-POL_C0603_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS20644@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins20644@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins20644@\all\.\capacitor-non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -228,6 +238,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R7 'RESISTOR_R0603_10K':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS20560@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins20560@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins20560@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  U1 'STM32F103C8T6_LQFP-48-1R20X0R30':;
 
 SECTION_NUMBER 1
@@ -254,6 +274,16 @@ SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS641@ALL.W25Q128JVSIQ.NORMAL(CHIPS)':
  C_PATH='@hfplink.schematic1(sch_1):ins641@\all\.\w25q128jvsiq.normal\(chips)',
  P_PATH='@hfplink.schematic1(sch_1):page1_ins641@\all\.\w25q128jvsiq.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'W25Q128JVSIQ_SOIC-8-2R25X0R63_W':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS20520@ALL.W25Q128JVSIQ.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins20520@\all\.\w25q128jvsiq.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins20520@\all\.\w25q128jvsiq.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
