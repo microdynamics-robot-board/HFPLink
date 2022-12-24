@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : hfplink_v1.brd                                )
 (    Software Version : 16.6-2015S066                                 )
-(    Date/Time        : Tue Dec 20 21:03:46 2022                      )
+(    Date/Time        : Fri Dec 23 17:48:27 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,16 +22,16 @@ Design Directory:            '.'
 Old design name:             'G:/project_development/GitHub/HFPLink/PCB/hfplink_v1.brd'
 New design name:             'G:/project_development/GitHub/HFPLink/PCB/hfplink_v1.brd'
 
-CmdLine: netrev -$ -i G:/project_development/GitHub/HFPLink/SCH/NETLIST -y 1 -z -q netrev_constraint_report.xml G:/project_development/GitHub/HFPLink/PCB/#Taaaaal12604.tmp
+CmdLine: netrev -$ -i G:/project_development/GitHub/HFPLink/SCH/NETLIST -y 1 -z -q netrev_constraint_report.xml G:/project_development/GitHub/HFPLink/PCB/#Taaaadx06980.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstchip.dat 
-   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstchip.dat (00:00:00.09)
+   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstchip.dat (00:00:00.23)
 Starting to read G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxprt.dat 
    Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxprt.dat (00:00:00.00)
 Starting to read G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxnet.dat 
-   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxnet.dat (00:00:00.00)
+   Finished reading G:/project_development/GitHub/HFPLink/SCH/NETLIST/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -65,7 +65,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Dec 20 21:03:46 2022
+netrev run on Dec 23 17:48:26 2022
    DESIGN NAME : 'HFPLINK'
    PACKAGING ON Feb 15 2016 19:53:59
 
@@ -90,6 +90,6 @@ netrev run on Dec 20 21:03:46 2022
  No oversight detected
  No warning detected
 
-cpu time      0:01:11
-elapsed time  0:00:00
+cpu time      0:02:32
+elapsed time  0:00:01
 
