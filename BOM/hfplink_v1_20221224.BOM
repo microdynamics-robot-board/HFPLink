@@ -1,0 +1,30 @@
+HFPLink  Revised: Friday, December 23, 2022
+          Revision: V1.0
+
+Team MicroDynamics
+
+
+
+
+
+Bill Of Materials       December 24,2022      14:20:31	Page1
+
+Comment	Designator	Footprint	Quantity
+______________________________________________
+
+100nF	C1,C2,C5,C9,C11,C12,C13,	C0603	8
+	C14
+18pF	C3,C4	C0603	2
+10uF	C6,C7,C8	C0603	3
+4.7uF	C10	C0603	1
+USB_MICRO	J1	USB-MICRO-5-SM	1
+HEADER-4X1	J2	HDR4X1-2R54-TM-VM	1
+GREEN	LED1	LED0603	1
+20R	R1,R3	R0603	2
+10K	R2,R6,R7	R0603	3
+1.5K	R4	R0603	1
+2K	R5	R0603	1
+STM32F103C8T6	U1	LQFP-48-1R20X0R30	1
+XC6206P332MR	U2	SOT-23-3-1R00X0R80	1
+W25Q128JVSIQ	U3,U4	SOIC-8-2R25X0R63	2
+8MHz	X1	HC-49S	1
