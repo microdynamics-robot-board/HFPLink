@@ -76,7 +76,19 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "G:\project_development\GitHub\HFPLink\BOM\hfplink_v1.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Value}\t{Reference}\t{PCB Footprint}\t{Quantity}")
+    (BOM_Header "Comment\tDesignator\tFootprint\tQuantity")
+    (BOM_Include_File "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\HFPLINK.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
   (Folder "Outputs"
     (File ".\hfplink.drc"
       (Type "Report"))
@@ -88,7 +100,9 @@
       (DisplayName "pstxprt.dat"))
     (File ".\netlist\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File "..\bom\hfplink_v1.bom"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (LED
@@ -155,11 +169,17 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1172 0 371")
-        (Scroll "0 68")
+        (Scroll "1596 732")
         (Zoom "400")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\HFPLINK.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "PAGE1"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1302 78 344"))
+      (Path "G:\project_development\GitHub\HFPLink\SCH\hfplink.drc")
+      (Scroll "0")))
   (MPSSessionName "abcd")
   (ISPCBBASICLICENSE "false"))
