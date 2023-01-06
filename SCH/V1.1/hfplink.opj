@@ -4,7 +4,7 @@
   (Folder "Design Resources"
     (Folder "Library")
     (NoModify)
-    (File ".\hfplink.DSN"
+    (File ".\hfplink.dsn"
       (Type "Schematic Design")
       (DisplayName ".\hfplink.DSN"))
     (BuildFileAddedOrDeleted "x")
@@ -103,11 +103,19 @@
     (File ".\netlist\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat"))
-    (File "..\..\bom\hfplink_v1.bom"
+    (File "g:\project_development\github\hfplink\bom\hfplink_v1.bom"
       (Type "Report")
       (DisplayName "..\..\bom\hfplink_v1.bom")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (XTAL-CRY-4
+      (FullPartName "XTAL-CRY-4.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (XTAL-OSC
+      (FullPartName "XTAL-OSC.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
@@ -172,7 +180,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1172 0 371")
-        (Scroll "305 168")
+        (Scroll "0 0")
         (Zoom "140")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.1\HFPLINK.DSN")
