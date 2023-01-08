@@ -72,5 +72,12 @@ dkms.conf
 *.ipc,*
 *AUTOSAVE*
 *.jrl*
-*/signoise.run
+*.iml
+*.lst
+signoise.run
+eco.txt
+art_param.txt
+nc_param.txt
+nc_tools_auto.txt
 Backup of *
+zip
