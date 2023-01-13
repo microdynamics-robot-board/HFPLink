@@ -1,11 +1,9 @@
 <p align="center">
-    <!-- <img width="200px" src="./.images/tree_core_logo.svg" align="center" alt="Tree Core CPU" /> -->
     <h2 align="center">HFPLink: A High-speed SPI Flash Programmer</h2>
 </p>
 <p align="center">
     <a href="https://github.com/microdynamics-robot-development-board/HFPLink/actions">
-      <img src="https://img.shields.io/github/workflow/status/microdynamics-robot-development-board/HFPLink/unit-test/main?label=unit-test&logo=github&style=flat-square">
-    </a>
+      <img src="https://img.shields.io/github/actions/workflow/status/microdynamics-robot-development-board/HFPLink/unit-test.yml?branch=main&logo=github&style=flat-square">
     <a href="./LICENSE">
       <img src="https://img.shields.io/github/license/microdynamics-robot-development-board/HFPLink?color=brightgreen&logo=github&style=flat-square">
     </a>
