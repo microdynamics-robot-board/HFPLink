@@ -108,6 +108,18 @@
       (DisplayName "..\..\bom\hfplink_v1.bom")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (HEADER-2X1
+      (FullPartName "HEADER-2X1.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (BUTTON
+      (FullPartName "BUTTON.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (USB_TYPEC
+      (FullPartName "USB_TYPEC.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
     (XTAL-CRY-4
       (FullPartName "XTAL-CRY-4.Normal")
       (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
@@ -163,25 +175,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Outputs"))
+      (Path "Design Resources" ".\hfplink.dsn")
+      (Path "Design Resources" ".\hfplink.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\hfplink.dsn" "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources" ".\hfplink.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 332"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 332"))
       (Tab 0))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1302 78 344"))
-      (Path "g:\project_development\github\hfplink\sch\v1.1\hfplink.drc")
-      (Scroll "0"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1172 0 371")
-        (Scroll "0 0")
-        (Zoom "140")
+        (Placement "44 2 3 -1 -1 -8 -31 26 1250 26 292")
+        (Scroll "-263 -3")
+        (Zoom "31")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.1\HFPLINK.DSN")
       (Schematic "SCHEMATIC1")
