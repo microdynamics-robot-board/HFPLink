@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Dec-23-2022 at 17:46:56 }
+{ Using PSTWRITER 16.6.0 d001Jan-14-2023 at 15:32:50 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='HFPLINK';
@@ -8,7 +8,7 @@ DIRECTIVES
 END_DIRECTIVES;
 
 PART_NAME
- C1 'CAPACITOR-NON-POL_C0603_100NF':;
+ C1 'CAPACITOR-NON-POL_C0402_100NF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS7967@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -18,17 +18,27 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C10 'CAPACITOR-NON-POL_C0603_4.7UF':;
+ C10 'CAPACITOR-NON-POL_C0402_100NF':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS11126@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins11126@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins11126@\all\.\capacitor-non-pol.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS37175@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins37175@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins37175@\all\.\capacitor-non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- C11 'CAPACITOR-NON-POL_C0603_100NF':;
+ C11 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS37195@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins37195@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins37195@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAPACITOR-NON-POL_C0402_100NF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS4403@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -38,7 +48,17 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C12 'CAPACITOR-NON-POL_C0603_100NF':;
+ C13 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342483@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342483@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342483@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAPACITOR-NON-POL_C0402_100NF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS5642@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -48,67 +68,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C13 'CAPACITOR-NON-POL_C0603_100NF':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS999@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins999@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins999@\all\.\capacitor-non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C14 'CAPACITOR-NON-POL_C0603_100NF':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS20644@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins20644@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins20644@\all\.\capacitor-non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C2 'CAPACITOR-NON-POL_C0603_100NF':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS6699@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins6699@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins6699@\all\.\capacitor-non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C3 'CAPACITOR-NON-POL_C0603_18PF':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS2174@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins2174@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins2174@\all\.\capacitor-non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C4 'CAPACITOR-NON-POL_C0603_18PF':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS2251@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins2251@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins2251@\all\.\capacitor-non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C5 'CAPACITOR-NON-POL_C0603_100NF':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS4173@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins4173@\all\.\capacitor-non-pol.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins4173@\all\.\capacitor-non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C6 'CAPACITOR-NON-POL_C0603_10UF':;
+ C15 'CAPACITOR-NON-POL_C0402_10UF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS276@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -118,7 +78,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C7 'CAPACITOR-NON-POL_C0603_10UF':;
+ C16 'CAPACITOR-NON-POL_C0402_10UF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS383@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -128,7 +88,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C8 'CAPACITOR-NON-POL_C0603_10UF':;
+ C17 'CAPACITOR-NON-POL_C0402_10UF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS436@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -138,7 +98,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C9 'CAPACITOR-NON-POL_C0603_100NF':;
+ C18 'CAPACITOR-NON-POL_C0402_100NF':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS462@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
@@ -148,27 +108,177 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ C19 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS33380@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins33380@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins33380@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAPACITOR-NON-POL_C0402_10PF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS24995@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins24995@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins24995@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS20644@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins20644@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins20644@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS999@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins999@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins999@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS6699@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins6699@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins6699@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAPACITOR-NON-POL_C0402_100NF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342279@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342279@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342279@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAPACITOR-NON-POL_C0402_1UF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342295@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342295@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342295@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAPACITOR-NON-POL_C0402_10PF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS25195@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins25195@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins25195@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAPACITOR-NON-POL_C0402_4.7UF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS11126@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins11126@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins11126@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAPACITOR-NON-POL_C0402_10UF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS37143@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins37143@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins37143@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAPACITOR-NON-POL_C0402_10UF':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS37159@ALL.CAPACITOR-NON-POL.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins37159@\all\.\capacitor-non-pol.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins37159@\all\.\capacitor-non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 '1N5819_SOD-123-0R95X0R90_1N5819':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS37075@ALL.1N5819.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins37075@\all\.\1n5819.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins37075@\all\.\1n5819.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FUSE_L0805_0805L110SLYR_005':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS37115@ALL.FUSE.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins37115@\all\.\fuse.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins37115@\all\.\fuse.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  J1 'USB_MICRO_USB-MICRO-5-SM_USB_MI':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS1284@ALL.USB_MICRO.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins1284@\all\.\usb_micro.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins1284@\all\.\usb_micro.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS366396@ALL.USB_MICRO.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins366396@\all\.\usb_micro.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins366396@\all\.\usb_micro.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- J2 'HEADER-4X1_HDR4X1-2R54-TM-VM_HE':;
+ J2 'HEADER-2X1_HDR2X1-2R54-TM-VM_UA':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS1886@ALL.HEADER-4X1.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins1886@\all\.\header-4x1.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins1886@\all\.\header-4x1.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342633@ALL.HEADER-2X1.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342633@\all\.\header-2x1.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342633@\all\.\header-2x1.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- LED1 'LED_LED0603_GREEN':;
+ J3 'HEADER-6X1_HDR6X1-2R54-TM-VM_US':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS349833@ALL.HEADER-6X1.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins349833@\all\.\header-6x1.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins349833@\all\.\header-6x1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'ACA-SPI-004-K02_ACA-SPI-004-K02':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS371187@ALL.ACA-SPI-004-K02.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins371187@\all\.\aca-spi-004-k02.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins371187@\all\.\aca-spi-004-k02.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED1 'LED_LED0603_BLUE':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS4675@ALL.LED.NORMAL(CHIPS)':
@@ -178,57 +288,47 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R1 'RESISTOR_R0603_20R':;
+ LED2 'LED_LED0603_RED':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS1766@ALL.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins1766@\all\.\resistor.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins1766@\all\.\resistor.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS22970@ALL.LED.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins22970@\all\.\led.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins22970@\all\.\led.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R2 'RESISTOR_R0603_10K':;
+ R1 'RESISTOR_R0402_20R':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS8207@ALL.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins8207@\all\.\resistor.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins8207@\all\.\resistor.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS367308@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins367308@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins367308@\all\.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R3 'RESISTOR_R0603_20R':;
+ R10 'RESISTOR_R0402_10K':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS1812@ALL.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins1812@\all\.\resistor.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins1812@\all\.\resistor.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS34945@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins34945@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins34945@\all\.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R4 'RESISTOR_R0603_1.5K':;
+ R11 'RESISTOR_R0402_2K':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS8634@ALL.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins8634@\all\.\resistor.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins8634@\all\.\resistor.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS356471@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins356471@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins356471@\all\.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- R5 'RESISTOR_R0603_2K':;
-
-SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS4644@ALL.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins4644@\all\.\resistor.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins4644@\all\.\resistor.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R6 'RESISTOR_R0603_10K':;
+ R12 'RESISTOR_R0402_10K':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS700@ALL.RESISTOR.NORMAL(CHIPS)':
@@ -238,7 +338,7 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- R7 'RESISTOR_R0603_10K':;
+ R13 'RESISTOR_R0402_10K':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS20560@ALL.RESISTOR.NORMAL(CHIPS)':
@@ -248,17 +348,167 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U1 'STM32F103C8T6_LQFP-48-1R20X0R30':;
+ R14 'RESISTOR_R0402_330R':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS118@ALL.STM32F103C8T6.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins118@\all\.\stm32f103c8t6.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins118@\all\.\stm32f103c8t6.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS34312@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins34312@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins34312@\all\.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U2 'XC6206P332MR_SOT-23-3-1R00X0R80':;
+ R2 'RESISTOR_R0402_20R':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS367346@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins367346@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins367346@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_R0402_1.5K':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS345410@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins345410@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins345410@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342235@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342235@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342235@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR_R0402_0R':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342263@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342263@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342263@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR_R0402_2K':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS4644@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins4644@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins4644@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_R0402_4.7K':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342207@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342207@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342207@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_R0402_2K':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS22996@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins22996@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins22996@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RESISTOR_R0402_10K':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS365081@ALL.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins365081@\all\.\resistor.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins365081@\all\.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'BUTTON_SW-2-2R00X1R10-SM_RESET':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS32821@ALL.BUTTON.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins32821@\all\.\button.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins32821@\all\.\button.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'BUTTON_SW-2-2R00X1R10-SM_BOOT':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS32837@ALL.BUTTON.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins32837@\all\.\button.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins32837@\all\.\button.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'SW-SPDT_SW-3-12R7X6R6_STATE-SWI':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS354618@ALL.SW-SPDT.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins354618@\all\.\sw-spdt.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins354618@\all\.\sw-spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW4 'BUTTON_SW-2-2R00X1R10-SM_USER':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS32853@ALL.BUTTON.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins32853@\all\.\button.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins32853@\all\.\button.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'CP2102_QFN-28-0R90X0R25_CP2102':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS342331@ALL.CP2102.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins342331@\all\.\cp2102.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins342331@\all\.\cp2102.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'WAS3157B_SOT-363-6-0R80X0R40_WA':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS351509@ALL.WAS3157B.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins351509@\all\.\was3157b.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins351509@\all\.\was3157b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'STM/CH32F103C8T6_LQFP-48-1R20X0':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS118@ALL.STM/CH32F103C8T6.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins118@\all\.\stm/ch32f103c8t6.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins118@\all\.\stm/ch32f103c8t6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'XC6206P332MR_SOT-23-3-1R00X0R80':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS237@ALL.XC6206P332MR.NORMAL(CHIPS)':
@@ -268,17 +518,27 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- U3 'W25Q128JVSIQ_SOIC-8-2R25X0R63_W':;
+ U4 'WAS3157B_SOT-363-6-0R80X0R40_WA':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS641@ALL.W25Q128JVSIQ.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins641@\all\.\w25q128jvsiq.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins641@\all\.\w25q128jvsiq.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS346987@ALL.WAS3157B.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins346987@\all\.\was3157b.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins346987@\all\.\was3157b.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
 PART_NAME
- U4 'W25Q128JVSIQ_SOIC-8-2R25X0R63_W':;
+ U5 'WAS3157B_SOT-363-6-0R80X0R40_WA':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS347974@ALL.WAS3157B.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins347974@\all\.\was3157b.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins347974@\all\.\was3157b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U6 'W25Q128JVSIQ_SOIC-8-2R25X0R63_W':;
 
 SECTION_NUMBER 1
  '@HFPLINK.SCHEMATIC1(SCH_1):INS20520@ALL.W25Q128JVSIQ.NORMAL(CHIPS)':
@@ -288,12 +548,42 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- X1 'XTAL-CRY-2_HC-49S_8MHZ':;
+ U7 'WAS3157B_SOT-363-6-0R80X0R40_WA':;
 
 SECTION_NUMBER 1
- '@HFPLINK.SCHEMATIC1(SCH_1):INS2148@ALL.XTAL-CRY-2.NORMAL(CHIPS)':
- C_PATH='@hfplink.schematic1(sch_1):ins2148@\all\.\xtal-cry-2.normal\(chips)',
- P_PATH='@hfplink.schematic1(sch_1):page1_ins2148@\all\.\xtal-cry-2.normal\(chips)',
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS349558@ALL.WAS3157B.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins349558@\all\.\was3157b.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins349558@\all\.\was3157b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'WAS3157B_SOT-363-6-0R80X0R40_WA':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS350204@ALL.WAS3157B.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins350204@\all\.\was3157b.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins350204@\all\.\was3157b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'WAS3157B_SOT-363-6-0R80X0R40_WA':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS350983@ALL.WAS3157B.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins350983@\all\.\was3157b.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins350983@\all\.\was3157b.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ X1 'XTAL-CRY-4_XTAL-4-3R20X2R50-SM_':;
+
+SECTION_NUMBER 1
+ '@HFPLINK.SCHEMATIC1(SCH_1):INS23862@ALL.XTAL-CRY-4.NORMAL(CHIPS)':
+ C_PATH='@hfplink.schematic1(sch_1):ins23862@\all\.\xtal-cry-4.normal\(chips)',
+ P_PATH='@hfplink.schematic1(sch_1):page1_ins23862@\all\.\xtal-cry-4.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

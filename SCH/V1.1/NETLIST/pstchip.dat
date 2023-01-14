@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Dec-23-2022 at 17:46:56}
-primitive 'CAPACITOR-NON-POL_C0603_100NF';
+{ Using PSTWRITER 16.6.0 d001Jan-14-2023 at 15:32:50}
+primitive 'CAPACITOR-NON-POL_C0402_100NF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -11,11 +11,11 @@ primitive 'CAPACITOR-NON-POL_C0603_100NF';
   end_pin;
   body
     PART_NAME='CAPACITOR-NON-POL';
-    JEDEC_TYPE='C0603';
+    JEDEC_TYPE='C0402';
     VALUE='100nF';
   end_body;
 end_primitive;
-primitive 'CAPACITOR-NON-POL_C0603_4.7UF';
+primitive 'CAPACITOR-NON-POL_C0402_10UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -26,26 +26,71 @@ primitive 'CAPACITOR-NON-POL_C0603_4.7UF';
   end_pin;
   body
     PART_NAME='CAPACITOR-NON-POL';
-    JEDEC_TYPE='C0603';
+    JEDEC_TYPE='C0402';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR-NON-POL_C0402_10PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-NON-POL';
+    JEDEC_TYPE='C0402';
+    VALUE='10pF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR-NON-POL_C0402_1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-NON-POL';
+    JEDEC_TYPE='C0402';
+    VALUE='1uF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR-NON-POL_C0402_4.7UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR-NON-POL';
+    JEDEC_TYPE='C0402';
     VALUE='4.7uF';
   end_body;
 end_primitive;
-primitive 'CAPACITOR-NON-POL_C0603_18PF';
+primitive '1N5819_SOD-123-0R95X0R90_1N5819';
   pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CAPACITOR-NON-POL';
-    JEDEC_TYPE='C0603';
-    VALUE='18pF';
+    PART_NAME='1N5819';
+    JEDEC_TYPE='SOD-123-0R95X0R90';
+    VALUE='1N5819';
   end_body;
 end_primitive;
-primitive 'CAPACITOR-NON-POL_C0603_10UF';
+primitive 'FUSE_L0805_0805L110SLYR_005';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -55,9 +100,9 @@ primitive 'CAPACITOR-NON-POL_C0603_10UF';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CAPACITOR-NON-POL';
-    JEDEC_TYPE='C0603';
-    VALUE='10uF';
+    PART_NAME='FUSE';
+    JEDEC_TYPE='L0805';
+    VALUE='0805L110SLYR_005';
   end_body;
 end_primitive;
 primitive 'USB_MICRO_USB-MICRO-5-SM_USB_MI';
@@ -102,7 +147,22 @@ primitive 'USB_MICRO_USB-MICRO-5-SM_USB_MI';
     VALUE='USB_MICRO';
   end_body;
 end_primitive;
-primitive 'HEADER-4X1_HDR4X1-2R54-TM-VM_HE';
+primitive 'HEADER-2X1_HDR2X1-2R54-TM-VM_UA';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER-2X1';
+    JEDEC_TYPE='HDR2X1-2R54-TM-VM';
+    VALUE='UART';
+  end_body;
+end_primitive;
+primitive 'HEADER-6X1_HDR6X1-2R54-TM-VM_US';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -116,14 +176,53 @@ primitive 'HEADER-4X1_HDR4X1-2R54-TM-VM_HE';
     '4':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='HEADER-4X1';
-    JEDEC_TYPE='HDR4X1-2R54-TM-VM';
-    VALUE='HEADER-4X1';
+    PART_NAME='HEADER-6X1';
+    JEDEC_TYPE='HDR6X1-2R54-TM-VM';
+    VALUE='USER_FLASH';
   end_body;
 end_primitive;
-primitive 'LED_LED0603_GREEN';
+primitive 'ACA-SPI-004-K02_ACA-SPI-004-K02';
+  pin
+    'CS#':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'DO':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'WP#':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'DIO':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'CLK':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'HOLD#':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='ACA-SPI-004-K02';
+    JEDEC_TYPE='ACA-SPI-004-K02-SM';
+    VALUE='ACA-SPI-004-K02';
+  end_body;
+end_primitive;
+primitive 'LED_LED0603_BLUE';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -135,10 +234,25 @@ primitive 'LED_LED0603_GREEN';
   body
     PART_NAME='LED';
     JEDEC_TYPE='LED0603';
-    VALUE='GREEN';
+    VALUE='BLUE';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0603_20R';
+primitive 'LED_LED0603_RED';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='LED0603';
+    VALUE='RED';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_20R';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -149,11 +263,11 @@ primitive 'RESISTOR_R0603_20R';
   end_pin;
   body
     PART_NAME='RESISTOR';
-    JEDEC_TYPE='R0603';
+    JEDEC_TYPE='R0402';
     VALUE='20R';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0603_10K';
+primitive 'RESISTOR_R0402_10K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -164,11 +278,11 @@ primitive 'RESISTOR_R0603_10K';
   end_pin;
   body
     PART_NAME='RESISTOR';
-    JEDEC_TYPE='R0603';
+    JEDEC_TYPE='R0402';
     VALUE='10K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_R0603_1.5K';
+primitive 'RESISTOR_R0402_2K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -179,26 +293,257 @@ primitive 'RESISTOR_R0603_1.5K';
   end_pin;
   body
     PART_NAME='RESISTOR';
-    JEDEC_TYPE='R0603';
-    VALUE='1.5K';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_R0603_2K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='R0603';
+    JEDEC_TYPE='R0402';
     VALUE='2K';
   end_body;
 end_primitive;
-primitive 'STM32F103C8T6_LQFP-48-1R20X0R30';
+primitive 'RESISTOR_R0402_330R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='330R';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_1.5K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='1.5K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_0R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='0R';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0402_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0402';
+    VALUE='4.7K';
+  end_body;
+end_primitive;
+primitive 'BUTTON_SW-2-2R00X1R10-SM_RESET';
+  pin
+    'P1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'P2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BUTTON';
+    JEDEC_TYPE='SW-2-2R00X1R10-SM';
+    VALUE='RESET';
+  end_body;
+end_primitive;
+primitive 'BUTTON_SW-2-2R00X1R10-SM_BOOT';
+  pin
+    'P1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'P2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BUTTON';
+    JEDEC_TYPE='SW-2-2R00X1R10-SM';
+    VALUE='BOOT';
+  end_body;
+end_primitive;
+primitive 'SW-SPDT_SW-3-12R7X6R6_STATE-SWI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SW-SPDT';
+    JEDEC_TYPE='SW-3-12R7X6R6';
+    VALUE='STATE-SWITCH';
+  end_body;
+end_primitive;
+primitive 'BUTTON_SW-2-2R00X1R10-SM_USER';
+  pin
+    'P1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'P2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BUTTON';
+    JEDEC_TYPE='SW-2-2R00X1R10-SM';
+    VALUE='USER';
+  end_body;
+end_primitive;
+primitive 'CP2102_QFN-28-0R90X0R25_CP2102';
+  pin
+    'DCD':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'RI':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'GND#3':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'D+':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'D-':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(6)';
+      PINUSE='POWER';
+    'REGIN':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VBUS':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'R\S\T\':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'NC1':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'S\U\S\P\E\N\D\':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'SUSPEND':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    'NC2':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    'CTS':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    'RTS':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    'RXD':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+    'TXD':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+    'DSR':
+      PIN_NUMBER='(27)';
+      PINUSE='UNSPEC';
+    'DTR':
+      PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    'NC3':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    'NC4':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    'NC5':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    'NC6':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    'NC7':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    'NC8':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    'NC9':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'NC10':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    'NC11':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    'GND#29':
+      PIN_NUMBER='(29)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='CP2102';
+    JEDEC_TYPE='QFN-28-0R90X0R25';
+    VALUE='CP2102';
+  end_body;
+end_primitive;
+primitive 'WAS3157B_SOT-363-6-0R80X0R40_WA';
+  pin
+    'B1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'B0':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+    'SEL':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='WAS3157B';
+    JEDEC_TYPE='SOT-363-6-0R80X0R40';
+    VALUE='WAS3157B';
+  end_body;
+end_primitive;
+primitive 'STM/CH32F103C8T6_LQFP-48-1R20X0';
   pin
     'VBAT':
       PIN_NUMBER='(1)';
@@ -346,9 +691,9 @@ primitive 'STM32F103C8T6_LQFP-48-1R20X0R30';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='STM32F103C8T6';
+    PART_NAME='STM/CH32F103C8T6';
     JEDEC_TYPE='LQFP-48-1R20X0R30';
-    VALUE='STM32F103C8T6';
+    VALUE='STM/CH32V103C8T6';
   end_body;
 end_primitive;
 primitive 'XC6206P332MR_SOT-23-3-1R00X0R80';
@@ -402,19 +747,25 @@ primitive 'W25Q128JVSIQ_SOIC-8-2R25X0R63_W';
     VALUE='W25Q128JVSIQ';
   end_body;
 end_primitive;
-primitive 'XTAL-CRY-2_HC-49S_8MHZ';
+primitive 'XTAL-CRY-4_XTAL-4-3R20X2R50-SM_';
   pin
     'OUT1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'OUT2':
-      PIN_NUMBER='(2)';
+      PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
+    'GND#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'GND#4':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
   end_pin;
   body
-    PART_NAME='XTAL-CRY-2';
-    JEDEC_TYPE='HC-49S';
-    VALUE='8MHz';
+    PART_NAME='XTAL-CRY-4';
+    JEDEC_TYPE='XTAL-4-3R20X2R50-SM';
+    VALUE='8MHz 10pF 10ppm';
   end_body;
 end_primitive;
 END.
