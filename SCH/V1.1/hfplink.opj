@@ -32,7 +32,8 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
-    (DRC_Report_File "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\HFPLINK.DRC")
+    (DRC_Report_File
+       "G:\project_development\GitHub\HFPLink\SCH\V1.1\HFPLINK.DRC")
     (DRC_Check_Ports "TRUE")
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -62,7 +63,7 @@
     (DRC_Run_Physical_Custom_DRC "FALSE")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\NETLIST")
+       "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.1\NETLIST")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -91,9 +92,6 @@
     (Open_BOM_in_Excel "FALSE")
     (BOM_View_Output "FALSE"))
   (Folder "Outputs"
-    (File ".\hfplink.drc"
-      (Type "Report")
-      (DisplayName ".\hfplink.drc"))
     (File ".\netlist\pstxnet.dat"
       (Type "Report")
       (DisplayName "pstxnet.dat"))
@@ -103,11 +101,30 @@
     (File ".\netlist\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat"))
-    (File "g:\project_development\github\hfplink\bom\hfplink_v1.bom"
-      (Type "Report")
-      (DisplayName "..\..\bom\hfplink_v1.bom")))
+    (File ".\hfplink.drc"
+      (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (ACA-SPI-004-K02
+      (FullPartName "ACA-SPI-004-K02.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (USB_MICRO
+      (FullPartName "USB_MICRO.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (SW-SPDT
+      (FullPartName "SW-SPDT.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (HEADER-6X1
+      (FullPartName "HEADER-6X1.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
+    (WAS3157B
+      (FullPartName "WAS3157B.Normal")
+      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
+      (DeviceIndex "0"))
     (HEADER-2X1
       (FullPartName "HEADER-2X1.Normal")
       (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
@@ -138,10 +155,6 @@
       (DeviceIndex "0"))
     (HEADER-4X1
       (FullPartName "HEADER-4X1.Normal")
-      (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
-      (DeviceIndex "0"))
-    (USB_MICRO
-      (FullPartName "USB_MICRO.Normal")
       (LibraryName "G:\PROJECT_DEVELOPMENT\GITHUB\CADENCE_SCH_LIB\ALL.OLB")
       (DeviceIndex "0"))
     (RESISTOR
@@ -175,23 +188,32 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\hfplink.dsn")
-      (Path "Design Resources" ".\hfplink.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\hfplink.dsn" "Design Cache")
+      (Path "Design Resources"
+         "g:\project_development\github\hfplink\sch\v1.1\hfplink.dsn")
+      (Path "Design Resources"
+         "g:\project_development\github\hfplink\sch\v1.1\hfplink.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\hfplink.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources"
+         "g:\project_development\github\hfplink\sch\v1.1\hfplink.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 332"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 332"))
       (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1276 52 318"))
+      (Path "g:\project_development\github\hfplink\sch\v1.1\hfplink.drc")
+      (Scroll "0"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 1250 26 292")
-        (Scroll "-263 -3")
-        (Zoom "31")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1250 26 292")
+        (Scroll "1604 794")
+        (Zoom "184")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.1\HFPLINK.DSN")
       (Schematic "SCHEMATIC1")
