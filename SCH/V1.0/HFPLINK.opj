@@ -152,13 +152,9 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "g:\project_development\github\hfplink\sch\v1.0\hfplink.dsn")
-      (Path "Design Resources"
-         "g:\project_development\github\hfplink\sch\v1.0\hfplink.dsn"
-         "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"))
+      (Path "Design Resources" ".\hfplink.dsn")
+      (Path "Design Resources" ".\hfplink.dsn" "SCHEMATIC1")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -169,7 +165,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1224 0 266")
-        (Scroll "6 432")
+        (Scroll "6 0")
         (Zoom "200")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.0\HFPLINK.DSN")
