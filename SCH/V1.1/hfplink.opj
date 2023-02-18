@@ -225,8 +225,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 26 1250 26 292")
-        (Scroll "317 684")
-        (Zoom "260")
+        (Scroll "-129 -10")
+        (Zoom "65")
         (Occurrence "/"))
       (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.1\HFPLINK.DSN")
       (Schematic "SCHEMATIC1")
