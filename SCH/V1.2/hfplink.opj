@@ -202,28 +202,13 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\hfplink.dsn")
       (Path "Design Resources" ".\hfplink.dsn" "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\hfplink.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 332"))
-      (Tab 0))
-    (Doc
-      (Type "TextFile")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1245 52 318"))
-      (Path "g:\project_development\github\hfplink\sch\v1.2\hfplink.drc")
-      (Scroll "39"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1224 52 423")
-        (Scroll "-73 0")
-        (Zoom "81")
-        (Occurrence "/"))
-      (Path "G:\PROJECT_DEVELOPMENT\GITHUB\HFPLINK\SCH\V1.2\HFPLINK.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Tab 0)))
   (MPSSessionName "abcd")
   (ISPCBBASICLICENSE "false"))
